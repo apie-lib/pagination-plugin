@@ -1,0 +1,32 @@
+{
+  "name": "apie/pagination-plugin",
+  "description": "Composer package of the apie library: pagination plugin",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pieter Jordaan",
+      "email": "pieter_jordaan@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Apie\\PaginationPlugin\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Apie\\Tests\\PaginationPlugin\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "apie/core": "dev-main",
+    "pagerfanta/pagerfanta": "^2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
